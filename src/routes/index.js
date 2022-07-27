@@ -1,6 +1,6 @@
 // Layouts
 import { HeaderOnly } from '~/components/Layout';
-
+//Components
 import Home from '~/pages/Home';
 import Following from '~/pages/Following';
 import Profile from '~/pages/Profile';
@@ -16,6 +16,7 @@ const publicRoutes = [
   { path: '/search', component: Search, layout: null },
 ];
 
+// private routes
 const privateRoutes = [];
 
 export { publicRoutes, privateRoutes };
