@@ -1,4 +1,4 @@
-import { HeaderOnly } from '~/Components/GlobalStyles/Layout'
+import { HeaderOnly } from '~/Components/Layout'
 
 import Home from '~/pages/Home'
 import Following from '~/pages/Following'
